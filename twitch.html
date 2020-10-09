@@ -12,8 +12,10 @@
   <body>
     <div class="topnav">
       <div class="topnav-left">
-        <div class="twitch">
-          <a href="#"><i class="fab fa-twitch fa-lg"></i></a>
+        <div class="topnav-item">
+          <div class="twitch">
+            <a href="#"><i class="fab fa-twitch fa-lg"></i></a>
+          </div>
         </div>
         <div class="topnav-item">
           <div class="tab-name">
@@ -43,85 +45,62 @@
             </svg>
           </div>
         </div>
-       
-        <div class="tab-name">
-          <a href="#about">Espor</a>
+        <div class="topnav-item">
+          <div class="vertical-line"></div>
         </div>
-        <div class="icon">
-          <svg
-            type="color-fill-current"
-            width="20px"
-            height="20px"
-            version="1.1"
-            viewBox="0 0 20 20"
-            x="0px"
-            y="0px"
-            class="ScSvg-sc-1j5mt50-1 hAChQG"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M5 10h.1A5.006 5.006 0 009 13.9V16H7v2h6v-2h-2v-2.1a5.006 5.006 0 003.9-3.9h.1a3 3 0 003-3V4h-3V2H5v2H2v3a3 3 0 003 3zm2-6h6v5a3 3 0 11-6 0V4zm8 2v2a1 1 0 001-1V6h-1zM4 6h1v2a1 1 0 01-1-1V6z"
-            ></path>
-          </svg>
-        </div>
-        <div class="tab-name">
-          <a href="#contact" class="tab-name">Müzik</a>
-        </div>
-        <div class="icon">
-          <svg
-            type="color-fill-current"
-            width="20px"
-            height="20px"
-            version="1.1"
-            viewBox="0 0 20 20"
-            x="0px"
-            y="0px"
-            class="ScSvg-sc-1j5mt50-1 hAChQG"
-          >
-            <g>
-              <path
-                fill-rule="evenodd"
-                d="M18 4.331a2 2 0 00-2.304-1.977l-9 1.385A2 2 0 005 5.716v7.334A2.5 2.5 0 106.95 16H7V9.692l9-1.385v2.743A2.5 2.5 0 1017.95 14H18V4.33zm-2 0L7 5.716v1.953l9-1.385V4.33z"
-                clip-rule="evenodd"
-              ></path>
-            </g>
-          </svg>
-        </div>
-        <div class="point">
-          <a href="#"
-            ><svg
-              id="dots"
-              width="8%"
-              height="3%"
+        <div class="topnav-item">
+          <div class="tab-name">
+            <a href="#about">Espor</a>
+          </div>
+          <div class="icon">
+            <svg
+              type="color-fill-current"
+              width="20px"
+              height="20px"
               version="1.1"
               viewBox="0 0 20 20"
               x="0px"
               y="0px"
-              class="ScIconSVG-sc-1bgeryd-1 cMQeyU"
+              class="ScSvg-sc-1j5mt50-1 hAChQG"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M5 10h.1A5.006 5.006 0 009 13.9V16H7v2h6v-2h-2v-2.1a5.006 5.006 0 003.9-3.9h.1a3 3 0 003-3V4h-3V2H5v2H2v3a3 3 0 003 3zm2-6h6v5a3 3 0 11-6 0V4zm8 2v2a1 1 0 001-1V6h-1zM4 6h1v2a1 1 0 01-1-1V6z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="topnav-item">
+          <div class="tab-name">
+            <a href="#contact" class="tab-name">Müzik</a>
+          </div>
+          <div class="icon">
+            <svg
+              type="color-fill-current"
+              width="20px"
+              height="20px"
+              version="1.1"
+              viewBox="0 0 20 20"
+              x="0px"
+              y="0px"
+              class="ScSvg-sc-1j5mt50-1 hAChQG"
             >
               <g>
                 <path
-                  d="M2 10a2 2 0 114 0 2 2 0 01-4 0zM8 10a2 2 0 114 0 2 2 0 01-4 0zM16 8a2 2 0 100 4 2 2 0 000-4z"
+                  fill-rule="evenodd"
+                  d="M18 4.331a2 2 0 00-2.304-1.977l-9 1.385A2 2 0 005 5.716v7.334A2.5 2.5 0 106.95 16H7V9.692l9-1.385v2.743A2.5 2.5 0 1017.95 14H18V4.33zm-2 0L7 5.716v1.953l9-1.385V4.33z"
+                  clip-rule="evenodd"
                 ></path>
               </g>
             </svg>
-          </a>
+          </div>
         </div>
-      </div>
-      <div class="topnav-center">
-        <div class="search-area">
-          <input type="text" placeholder="Ara" name="search" id="search" />
-          <i class="fas fa-search" id="search-icon"></i>
-        </div>
-      </div>
-      <!-- Right-aligned links -->
-      <div class="topnav-right">
-        <div class="user-icon">
+        <div class="topnav-item">
           <svg
-            id="user-icon"
-            width="8%"
-            height="4%"
+            id="dots"
+            width="20px"
+            height="20px"
             version="1.1"
             viewBox="0 0 20 20"
             x="0px"
@@ -130,24 +109,43 @@
           >
             <g>
               <path
-                fill-rule="evenodd"
-                d="M5 7a5 5 0 116.192 4.857A2 2 0 0013 13h1a3 3 0 013 3v2h-2v-2a1 1 0 00-1-1h-1a3.99 3.99 0 01-3-1.354A3.99 3.99 0 017 15H6a1 1 0 00-1 1v2H3v-2a3 3 0 013-3h1a2 2 0 001.808-1.143A5.002 5.002 0 015 7zm5 3a3 3 0 110-6 3 3 0 010 6z"
-                clip-rule="evenodd"
+                d="M2 10a2 2 0 114 0 2 2 0 01-4 0zM8 10a2 2 0 114 0 2 2 0 01-4 0zM16 8a2 2 0 100 4 2 2 0 000-4z"
               ></path>
             </g>
           </svg>
         </div>
-        <div class="login-container">
-          <form>
-            <button type="submit" id="register-button">Kayıt Ol</button>
-            <button type="submit" id="login-button">Oturum Aç</button>
-          </form>
+      </div>
+      <div class="topnav-center">
+        <div class="topnav-search">
+          <input type="text" placeholder="Ara" name="search" id="search" />
+          <div id="search-icon">
+            <svg
+              width="20px"
+              height="20px"
+              version="1.1"
+              viewBox="0 0 20 20"
+              x="0px"
+              y="0px"
+              class="ScIconSVG-sc-1bgeryd-1 cMQeyU"
+            >
+              <g>
+                <path
+                  fill-rule="evenodd"
+                  d="M13.192 14.606a7 7 0 111.414-1.414l3.101 3.1-1.414 1.415-3.1-3.1zM14 9A5 5 0 114 9a5 5 0 0110 0z"
+                  clip-rule="evenodd"
+                ></path>
+              </g>
+            </svg>
+          </div>
         </div>
-        <div class="crown-icon">
+      </div>
+      <!-- Right-aligned links -->
+      <div class="topnav-right">
+        <div class="right-item">
           <svg
             id="crown-icon"
-            width="8%"
-            height="4%"
+            width="20px"
+            height="20px"
             version="1.1"
             viewBox="0 0 20 20"
             x="0px"
@@ -163,8 +161,116 @@
             </g>
           </svg>
         </div>
+        <div class="right-item">
+          <button type="submit" id="login-button">Oturum Aç</button>
+        </div>
+        <div>
+          <button type="submit" id="register-button">Kayıt Ol</button>
+        </div>
+        <div class="right-item">
+          <svg
+            id="user-icon"
+            width="20px"
+            height="20px"
+            version="1.1"
+            viewBox="0 0 20 20"
+            x="0px"
+            y="0px"
+            class="ScIconSVG-sc-1bgeryd-1 cMQeyU"
+          >
+            <g>
+              <path
+                fill-rule="evenodd"
+                d="M5 7a5 5 0 116.192 4.857A2 2 0 0013 13h1a3 3 0 013 3v2h-2v-2a1 1 0 00-1-1h-1a3.99 3.99 0 01-3-1.354A3.99 3.99 0 017 15H6a1 1 0 00-1 1v2H3v-2a3 3 0 013-3h1a2 2 0 001.808-1.143A5.002 5.002 0 015 7zm5 3a3 3 0 110-6 3 3 0 010 6z"
+                clip-rule="evenodd"
+              ></path>
+            </g>
+          </svg>
+        </div>
       </div>
     </div>
+    <div class="left-container">
+      <div class="left">
+        <div class="baslik">
+          <h5>ÖNERİLEN KANALLAR</h5>
+          <svg
+            width="20px"
+            height="20px"
+            version="1.1"
+            viewBox="0 0 20 20"
+            x="0px"
+            y="0px"
+            class="ScIconSVG-sc-1bgeryd-1 cMQeyU"
+          >
+            <g>
+              <path
+                d="M16 16V4h2v12h-2zM6 9l2.501-2.5-1.5-1.5-5 5 5 5 1.5-1.5-2.5-2.5h8V9H6z"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div class="channel">
+          <img
+            class=""
+            alt="OgamingLoL"
+            src="https://static-cdn.jtvnw.net/jtv_user_pictures/8dbce7bb-bb6e-4a3b-8121-ff262b717c81-profile_image-70x70.png"
+          />
+          <div class="deneme">
+            <div class="text">
+              <p><strong>OgamingLoL</strong></p>
+              <p>League of Legends</p>
+            </div>
+            <div class="number">
+              <svg style="width: 20px; height: 20px">
+                <circle cx="5" cy="10" r="4" fill="red" />
+              </svg>
+              <span>22.837</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="channel">
+        <img
+          class=""
+          alt="MineskiTV"
+          src="https://static-cdn.jtvnw.net/jtv_user_pictures/882ce5d9-6f94-465b-9c58-289962a73dfa-profile_image-70x70.png"
+        />
+        <div class="deneme">
+          <div class="text">
+            <p><strong>MineskiTV</strong></p>
+            <p>Vaorant</p>
+          </div>
+          <div class="number">
+            <svg style="width: 20px; height: 20px">
+              <circle cx="5" cy="10" r="4" fill="red" />
+            </svg>
+            <span>22.837</span>
+          </div>
+        </div>
+      </div>
+      <div class="channel">
+        <img
+          class=""
+          alt="Riot Games"
+          src="https://static-cdn.jtvnw.net/jtv_user_pictures/889e7697-b636-48d9-be15-a9a39e286a64-profile_image-70x70.png"
+        />
+        <div class="deneme">
+          <div class="text">
+            <p><strong>Riot Games</strong></p>
+            <p>League of Legends</p>
+          </div>
+          <div class="number">
+            <svg style="width: 20px; height: 20px">
+              <circle cx="5" cy="10" r="4" fill="red" />
+            </svg>
+            <span>22.837</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="middle-container"></div>
+    <div class="right-container"></div>
+
     <script src="app.js"></script>
   </body>
 </html>
