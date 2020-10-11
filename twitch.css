@@ -266,12 +266,17 @@ body {
 
 .left-container {
   width: 18%;
-  height: auto;
+  float:left;
+overflow-y: auto;
+height: 600px;
 }
 
 .left {
   display: flex;
   flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #efeff1;
 }
 
 
@@ -287,9 +292,12 @@ body {
   align-items: center;
 }
 
-.deneme{
-  display: flex;
-   align-items: flex-start;
+.channel-names{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 10px;
+width: 100%!important
 }
 
 .channel img {
@@ -297,7 +305,6 @@ body {
   width: 30px;
   height: 30px;
 }
-
 
 
 .middle-container {
@@ -311,16 +318,53 @@ body {
 }
 
 .channel .text p {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1px;
 }
 
-
+#head{
+  font-size: 25px;
+  font-weight: bold;
+  color: #0e0e10;
+}
 
 #circle {
   width: 100px;
   height: 100px;
   background: red;
   border-radius: 50%;
+}
+
+#register{
+  background-color: #9147ff;
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+#register:hover{
+  background-color: #772ce8 ;
+}
+
+.number span{
+  font-size: 13px;
+}
+
+.box span{
+  color: #7e2ff5;
+}
+
+.box{
+  padding-left: 15px;
+  padding-right:15px;
+  padding-bottom: 15px;
+  margin:5px;
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid #e5e5e7e5
 }
 
